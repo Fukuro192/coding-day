@@ -22,7 +22,7 @@ il faut les éléments suivants:
 pour compiler le projet:
 
 ```bash
-mvn clean compile
+mvn clean install
 ```
 
 et pour excecuter le projet:
