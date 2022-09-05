@@ -19,6 +19,14 @@ il faut les éléments suivants:
 
 # éxcecution
 
+il faut modifier le nom d'utilisateur et le mot de passe
+dans le fichier `src/main/resources/application.properties`:
+
+```
+spring.datasource.username=<ton-nom-d-utilisateur-mysql>
+spring.datasource.password=<ton-mot-de-passe-mysql>
+```
+
 pour compiler le projet:
 
 ```bash
